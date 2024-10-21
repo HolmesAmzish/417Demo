@@ -10,6 +10,11 @@ import java.util.List;
  * @since 0.0.1 2024-10-20
  */
 public interface UserService {
+    // get user
     User getUserById(int id);
+    User getUserByName(String username);
     List<User> getAllUser();
+
+    // register application
+    void register(String username, String password);
 }
