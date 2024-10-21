@@ -16,5 +16,5 @@ public interface UserService {
     List<User> getAllUser();
 
     // register application
-    void register(String username, String password);
+    void addUser(String username, String password);
 }

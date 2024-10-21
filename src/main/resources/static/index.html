@@ -11,6 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <style>
         .bd-placeholder-img {
@@ -87,6 +88,7 @@
             }
         }
     </style>
+    <script src="js/bootstrap.bundle.js"></script>
 </head>
 <body>
 
@@ -102,7 +104,9 @@
             <div class="container-fluid py-5">
                 <h1 class="display-1 fw-bold flash-title">黄奕是417小神兽</h1>
                 <p class="col-md-8 fs-4">在世界上最盛大的汽车嘉年华上，不断变化的赛季改变着一切。单枪匹马或者与其他人组队，在一个共享开放世界中探索美丽而富有历史气息的英国。收集、改装和驾驶超过 450 辆车辆。尽情竞速、表演特技、创造和探索：选择您专属的方式来成为地平线中的超级巨星。</p>
-                <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='https://user.qzone.qq.com/3227585869'">点我骚扰黄奕！</button>
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">
+                    点我骚扰黄奕
+                </button>
             </div>
         </div>
 
@@ -126,6 +130,30 @@
         <footer class="pt-3 mt-4 text-muted border-top">
             &copy; 2024
         </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h4 class="modal-title flash-title">黄奕</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body flash-title">
+                        黄奕叮咚叮咚叮咚叮咚叮咚叮咚砰砰砰砰砰砰砰。
+                        SBSBSBSSBBSBSBBSBSBSBBSBSBSBSBSBSB
+                        SBSBSBSBSBSBSBSBSSBS，
+                        66666666666666666666。
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
